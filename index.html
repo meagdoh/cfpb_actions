@@ -3,20 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-
     <title>CFPB Tracker</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js" />
     <script src="script.js"></script>
-
 </head>
 
 <body>
 
     <div class="Introduction">
-        <h1>CFPB Complaints and Actions</h1>
         <div class="subtitle">People think consumer finance companies are:
             <div id="word">bad</div>
         </div>
@@ -45,7 +43,9 @@
         <h2>Complaints and Actions 2010 - Present</h2>
         <div class="container">
             <div class="lgGraphBox">
-              <img src="./css/images/all_complaints_line.png" alt="data" class="lgGraphBox">
+              <canvas id="myChart">
+
+              </canvas>
             </div>
             <div class="graphTextBox">
                 <h2>Text About Graph</h2>

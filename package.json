@@ -1,0 +1,22 @@
+{
+  "name": "0.4-d3_cfpb-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meagdoh/cfpb_actions.git"
+  },
+  "author": "meag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meagdoh/cfpb_actions/issues"
+  },
+  "homepage": "https://github.com/meagdoh/cfpb_actions#readme",
+  "dependencies": {
+    "chart.js": "^2.6.0"
+  }
+}
